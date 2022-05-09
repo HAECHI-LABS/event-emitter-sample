@@ -32,6 +32,10 @@ export default {
       },
       allowUnlimitedContractSize: true,
       timeout: 1000000,
+      forking: {
+        url: process.env.MAINNET_RPC_URL,
+        blockNumber: Number(process.env.MAINNET_FORK_BLOCK),
+      },
     },
     coverage: {
       url: 'http://localhost:8555',

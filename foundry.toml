@@ -4,9 +4,12 @@ test = 'test'
 out = 'out'
 libs = ['lib','node_modules']
 solc_version = '0.8.13'
+evm_version = 'london'
 optimizer = true
 optimizer_runs = 10000
 
 gas_reports = ["*"]
+
+verbosity = 4
 
 # See more config options https://github.com/gakonst/foundry/tree/master/config

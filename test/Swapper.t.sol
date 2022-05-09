@@ -86,16 +86,16 @@ contract ContractTest is Test {
         }
     }
 
-   // function testSwap(uint256 _amount) public {
-   //     address _from = Mainnet.dai;
-   //     address _to = Mainnet.usdc;
-   //     cheats.assume(_amount < 1000000e18 && _amount > 10e18);
-   //     faucet(_from, address(s), _amount);
-   //     address[] memory path = new address[](2);
-   //     path[0] = _from;
-   //     path[1] = _to;
-   //     s.swap(path);
-   // }
+   function testSwap(uint256 _amount) public {
+       address _from = Mainnet.dai;
+       address _to = Mainnet.usdc;
+       cheats.assume(_amount < 1000000e18 && _amount > 10e18);
+       faucet(_from, address(s), _amount);
+       address[] memory path = new address[](2);
+       path[0] = _from;
+       path[1] = _to;
+       s.swap(path);
+   }
 
     function testSwap() public {
         uint256 _amount = 10000e18;
