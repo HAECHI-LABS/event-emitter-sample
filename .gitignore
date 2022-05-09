@@ -12,3 +12,5 @@ allFiredEvents
 crytic-export
 .coverage_artifacts
 .DS_Store
+.envrc
+

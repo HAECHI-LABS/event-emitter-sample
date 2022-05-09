@@ -5,11 +5,14 @@
   "scripts": {
     "build": "forge build",
     "compile": "forge build",
-    "test": "forge test"
+    "compile:hardhat": "npx hardhat compile",
+    "test": "forge test --fork-url $MAINNET_RPC_URL --fork-block-number $MAINNET_FORK_BLOCK -vvvv",
+    "test:hardhat": "npx hardhat test",
+    "coverage" : "npx hardhat coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haechi-labs/mojito.git"
+    "url": "git+https://github.com/leekt/foundry-template.git"
   },
   "license": "MIT",
   "dependencies": {
