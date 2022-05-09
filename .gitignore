@@ -14,3 +14,4 @@ crytic-export
 .DS_Store
 .envrc
 
+out/
