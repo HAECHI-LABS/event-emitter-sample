@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "smart contract development framework",
   "scripts": {
+    "node" : "anvil --fork-url $MAINNET_RPC_URL --fork-block-number $MAINNET_FORK_BLOCK",
     "build": "forge build",
     "compile": "forge build",
     "compile:hardhat": "npx hardhat compile",
