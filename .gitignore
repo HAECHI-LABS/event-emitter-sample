@@ -1,0 +1,14 @@
+node_modules
+coverage
+artifacts
+cache
+build
+coverage.json
+package-lock.json
+typechain-types/
+typechain/
+**/.*.swp
+allFiredEvents
+crytic-export
+.coverage_artifacts
+.DS_Store
