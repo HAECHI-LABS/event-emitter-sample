@@ -1,0 +1,23 @@
+{
+  "name": "hardhat-foundry-template",
+  "version": "1.0.0",
+  "description": "foundry and hardhat template to use both",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "forge test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leekt/foundry-template.git"
+  },
+  "author": "leekt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leekt/foundry-template/issues"
+  },
+  "homepage": "https://github.com/leekt/foundry-template#readme"
+}

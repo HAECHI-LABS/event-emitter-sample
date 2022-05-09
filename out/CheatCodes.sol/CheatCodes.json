@@ -503,50 +503,41 @@
   },
   "ast": {
     "absolutePath": "/Users/leekt/workspace/leekt/foundry-template/test/CheatCodes.sol",
+    "id": 2001,
     "exportedSymbols": {
       "CheatCodes": [
         2000
       ]
     },
-    "id": 2001,
-    "license": "MIT",
     "nodeType": "SourceUnit",
+    "src": "32:3775:2",
     "nodes": [
       {
         "id": 1807,
+        "nodeType": "PragmaDirective",
+        "src": "32:23:2",
         "literals": [
           "solidity",
           "^",
           "0.8",
           ".0"
-        ],
-        "nodeType": "PragmaDirective",
-        "src": "32:23:2"
+        ]
       },
       {
-        "abstract": false,
-        "baseContracts": [],
-        "canonicalName": "CheatCodes",
-        "contractDependencies": [],
-        "contractKind": "interface",
-        "fullyImplemented": false,
         "id": 2000,
-        "linearizedBaseContracts": [
-          2000
-        ],
-        "name": "CheatCodes",
-        "nameLocation": "67:10:2",
         "nodeType": "ContractDefinition",
+        "src": "57:3749:2",
         "nodes": [
           {
-            "functionSelector": "e5d6bf02",
             "id": 1812,
+            "nodeType": "FunctionDefinition",
+            "src": "111:32:2",
+            "functionSelector": "e5d6bf02",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "warp",
             "nameLocation": "120:4:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1810,
               "nodeType": "ParameterList",
@@ -588,20 +579,20 @@
               "src": "142:0:2"
             },
             "scope": 2000,
-            "src": "111:32:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "1f7b4f30",
             "id": 1817,
+            "nodeType": "FunctionDefinition",
+            "src": "173:32:2",
+            "functionSelector": "1f7b4f30",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "roll",
             "nameLocation": "182:4:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1815,
               "nodeType": "ParameterList",
@@ -643,20 +634,20 @@
               "src": "204:0:2"
             },
             "scope": 2000,
-            "src": "173:32:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "39b37ab0",
             "id": 1822,
+            "nodeType": "FunctionDefinition",
+            "src": "236:31:2",
+            "functionSelector": "39b37ab0",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "fee",
             "nameLocation": "245:3:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1820,
               "nodeType": "ParameterList",
@@ -698,20 +689,20 @@
               "src": "266:0:2"
             },
             "scope": 2000,
-            "src": "236:31:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "667f9d70",
             "id": 1831,
+            "nodeType": "FunctionDefinition",
+            "src": "317:72:2",
+            "functionSelector": "667f9d70",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "load",
             "nameLocation": "326:4:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1827,
               "nodeType": "ParameterList",
@@ -809,20 +800,20 @@
               "src": "379:9:2"
             },
             "scope": 2000,
-            "src": "317:72:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "70ca10bb",
             "id": 1840,
+            "nodeType": "FunctionDefinition",
+            "src": "445:70:2",
+            "functionSelector": "70ca10bb",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "store",
             "nameLocation": "454:5:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1838,
               "nodeType": "ParameterList",
@@ -919,20 +910,20 @@
               "src": "514:0:2"
             },
             "scope": 2000,
-            "src": "445:70:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "e341eaa4",
             "id": 1853,
+            "nodeType": "FunctionDefinition",
+            "src": "539:99:2",
+            "functionSelector": "e341eaa4",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "sign",
             "nameLocation": "548:4:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1845,
               "nodeType": "ParameterList",
@@ -1083,20 +1074,20 @@
               "src": "606:31:2"
             },
             "scope": 2000,
-            "src": "539:99:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "ffa18649",
             "id": 1860,
+            "nodeType": "FunctionDefinition",
+            "src": "692:61:2",
+            "functionSelector": "ffa18649",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "addr",
             "nameLocation": "701:4:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1856,
               "nodeType": "ParameterList",
@@ -1167,20 +1158,20 @@
               "src": "743:9:2"
             },
             "scope": 2000,
-            "src": "692:61:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "2d0335ab",
             "id": 1867,
+            "nodeType": "FunctionDefinition",
+            "src": "795:61:2",
+            "functionSelector": "2d0335ab",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getNonce",
             "nameLocation": "804:8:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1863,
               "nodeType": "ParameterList",
@@ -1251,20 +1242,20 @@
               "src": "847:8:2"
             },
             "scope": 2000,
-            "src": "795:61:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "1d79f325",
             "id": 1874,
+            "nodeType": "FunctionDefinition",
+            "src": "972:59:2",
+            "functionSelector": "1d79f325",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "setNonce",
             "nameLocation": "981:8:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1872,
               "nodeType": "ParameterList",
@@ -1334,20 +1325,20 @@
               "src": "1030:0:2"
             },
             "scope": 2000,
-            "src": "972:59:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "89160467",
             "id": 1882,
+            "nodeType": "FunctionDefinition",
+            "src": "1090:64:2",
+            "functionSelector": "89160467",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "ffi",
             "nameLocation": "1099:3:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1878,
               "nodeType": "ParameterList",
@@ -1426,20 +1417,20 @@
               "src": "1139:14:2"
             },
             "scope": 2000,
-            "src": "1090:64:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "ca669fa7",
             "id": 1887,
+            "nodeType": "FunctionDefinition",
+            "src": "1225:33:2",
+            "functionSelector": "ca669fa7",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "prank",
             "nameLocation": "1234:5:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1885,
               "nodeType": "ParameterList",
@@ -1482,20 +1473,20 @@
               "src": "1257:0:2"
             },
             "scope": 2000,
-            "src": "1225:33:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "06447d56",
             "id": 1892,
+            "nodeType": "FunctionDefinition",
+            "src": "1361:38:2",
+            "functionSelector": "06447d56",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "startPrank",
             "nameLocation": "1370:10:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1890,
               "nodeType": "ParameterList",
@@ -1538,20 +1529,20 @@
               "src": "1398:0:2"
             },
             "scope": 2000,
-            "src": "1361:38:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "47e50cce",
             "id": 1899,
+            "nodeType": "FunctionDefinition",
+            "src": "1512:42:2",
+            "functionSelector": "47e50cce",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "prank",
             "nameLocation": "1521:5:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1897,
               "nodeType": "ParameterList",
@@ -1622,20 +1613,20 @@
               "src": "1553:0:2"
             },
             "scope": 2000,
-            "src": "1512:42:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "45b56078",
             "id": 1906,
+            "nodeType": "FunctionDefinition",
+            "src": "1699:47:2",
+            "functionSelector": "45b56078",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "startPrank",
             "nameLocation": "1708:10:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1904,
               "nodeType": "ParameterList",
@@ -1706,20 +1697,20 @@
               "src": "1745:0:2"
             },
             "scope": 2000,
-            "src": "1699:47:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "90c5013b",
             "id": 1909,
+            "nodeType": "FunctionDefinition",
+            "src": "1817:30:2",
+            "functionSelector": "90c5013b",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "stopPrank",
             "nameLocation": "1826:9:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1907,
               "nodeType": "ParameterList",
@@ -1733,20 +1724,20 @@
               "src": "1846:0:2"
             },
             "scope": 2000,
-            "src": "1817:30:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "c88a5e6d",
             "id": 1916,
+            "nodeType": "FunctionDefinition",
+            "src": "1885:56:2",
+            "functionSelector": "c88a5e6d",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "deal",
             "nameLocation": "1894:4:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1914,
               "nodeType": "ParameterList",
@@ -1816,20 +1807,20 @@
               "src": "1940:0:2"
             },
             "scope": 2000,
-            "src": "1885:56:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "b4d6c782",
             "id": 1923,
+            "nodeType": "FunctionDefinition",
+            "src": "1976:57:2",
+            "functionSelector": "b4d6c782",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "etch",
             "nameLocation": "1985:4:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1921,
               "nodeType": "ParameterList",
@@ -1899,20 +1890,20 @@
               "src": "2032:0:2"
             },
             "scope": 2000,
-            "src": "1976:57:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "f4844814",
             "id": 1926,
+            "nodeType": "FunctionDefinition",
+            "src": "2076:33:2",
+            "functionSelector": "f4844814",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "expectRevert",
             "nameLocation": "2085:12:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1924,
               "nodeType": "ParameterList",
@@ -1926,20 +1917,20 @@
               "src": "2108:0:2"
             },
             "scope": 2000,
-            "src": "2076:33:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "f28dceb3",
             "id": 1931,
+            "nodeType": "FunctionDefinition",
+            "src": "2114:47:2",
+            "functionSelector": "f28dceb3",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "expectRevert",
             "nameLocation": "2123:12:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1929,
               "nodeType": "ParameterList",
@@ -1981,20 +1972,20 @@
               "src": "2160:0:2"
             },
             "scope": 2000,
-            "src": "2114:47:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "c31eb0e0",
             "id": 1936,
+            "nodeType": "FunctionDefinition",
+            "src": "2166:39:2",
+            "functionSelector": "c31eb0e0",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "expectRevert",
             "nameLocation": "2175:12:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1934,
               "nodeType": "ParameterList",
@@ -2036,20 +2027,20 @@
               "src": "2204:0:2"
             },
             "scope": 2000,
-            "src": "2166:39:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "266cf109",
             "id": 1939,
+            "nodeType": "FunctionDefinition",
+            "src": "2254:27:2",
+            "functionSelector": "266cf109",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "record",
             "nameLocation": "2263:6:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1937,
               "nodeType": "ParameterList",
@@ -2063,20 +2054,20 @@
               "src": "2280:0:2"
             },
             "scope": 2000,
-            "src": "2254:27:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "65bc9481",
             "id": 1950,
+            "nodeType": "FunctionDefinition",
+            "src": "2379:94:2",
+            "functionSelector": "65bc9481",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "accesses",
             "nameLocation": "2388:8:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1942,
               "nodeType": "ParameterList",
@@ -2192,20 +2183,20 @@
               "src": "2423:49:2"
             },
             "scope": 2000,
-            "src": "2379:94:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "491cc7c2",
             "id": 1961,
+            "nodeType": "FunctionDefinition",
+            "src": "2807:53:2",
+            "functionSelector": "491cc7c2",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "expectEmit",
             "nameLocation": "2816:10:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1959,
               "nodeType": "ParameterList",
@@ -2328,20 +2319,20 @@
               "src": "2859:0:2"
             },
             "scope": 2000,
-            "src": "2807:53:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "b96213e4",
             "id": 1970,
+            "nodeType": "FunctionDefinition",
+            "src": "3116:68:2",
+            "functionSelector": "b96213e4",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "mockCall",
             "nameLocation": "3125:8:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1968,
               "nodeType": "ParameterList",
@@ -2438,20 +2429,20 @@
               "src": "3183:0:2"
             },
             "scope": 2000,
-            "src": "3116:68:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "3fdf4e15",
             "id": 1973,
+            "nodeType": "FunctionDefinition",
+            "src": "3221:37:2",
+            "functionSelector": "3fdf4e15",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "clearMockedCalls",
             "nameLocation": "3230:16:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1971,
               "nodeType": "ParameterList",
@@ -2465,20 +2456,20 @@
               "src": "3257:0:2"
             },
             "scope": 2000,
-            "src": "3221:37:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "bd6af434",
             "id": 1980,
+            "nodeType": "FunctionDefinition",
+            "src": "3384:54:2",
+            "functionSelector": "bd6af434",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "expectCall",
             "nameLocation": "3393:10:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1978,
               "nodeType": "ParameterList",
@@ -2548,20 +2539,20 @@
               "src": "3437:0:2"
             },
             "scope": 2000,
-            "src": "3384:54:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "8d1cc925",
             "id": 1987,
+            "nodeType": "FunctionDefinition",
+            "src": "3531:66:2",
+            "functionSelector": "8d1cc925",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getCode",
             "nameLocation": "3540:7:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1983,
               "nodeType": "ParameterList",
@@ -2631,20 +2622,20 @@
               "src": "3582:14:2"
             },
             "scope": 2000,
-            "src": "3531:66:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "c657c718",
             "id": 1994,
+            "nodeType": "FunctionDefinition",
+            "src": "3642:61:2",
+            "functionSelector": "c657c718",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "label",
             "nameLocation": "3651:5:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1992,
               "nodeType": "ParameterList",
@@ -2714,20 +2705,20 @@
               "src": "3702:0:2"
             },
             "scope": 2000,
-            "src": "3642:61:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "functionSelector": "4c63e562",
             "id": 1999,
+            "nodeType": "FunctionDefinition",
+            "src": "3773:31:2",
+            "functionSelector": "4c63e562",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "assume",
             "nameLocation": "3782:6:2",
-            "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1997,
               "nodeType": "ParameterList",
@@ -2769,17 +2760,26 @@
               "src": "3803:0:2"
             },
             "scope": 2000,
-            "src": "3773:31:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "CheatCodes",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          2000
+        ],
+        "name": "CheatCodes",
+        "nameLocation": "67:10:2",
         "scope": 2001,
-        "src": "57:3749:2",
         "usedErrors": []
       }
     ],
-    "src": "32:3775:2"
+    "license": "MIT"
   }
 }

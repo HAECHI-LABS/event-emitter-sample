@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.8.13;
 
-import "ds-test/test.sol";
+import "forge-std/Test.sol";
 import "./CheatCodes.sol";
-import "src/Contract.sol";
+import "contracts/Contract.sol";
 
-contract ContractTest is DSTest {
+contract ContractTest is Test {
     Contract public c;
     CheatCodes constant cheats = CheatCodes(HEVM_ADDRESS);
 
