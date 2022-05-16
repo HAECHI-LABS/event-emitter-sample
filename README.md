@@ -38,6 +38,12 @@ forge install
 
 ## instructions
 
+### clear contract and test files
+
+```shell
+npm run clear
+```
+
 ### using foundry
 
 #### running compile
