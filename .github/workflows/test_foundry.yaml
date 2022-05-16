@@ -5,10 +5,13 @@ on:
     branches:
       - master
       - main
+      - 'audit/**'
+
   pull_request:
     branches:
       - master
       - main
+      - 'audit/**'
 
 jobs:
   test:
