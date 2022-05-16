@@ -9,7 +9,8 @@
     "compile:hardhat": "npx hardhat compile",
     "test": "forge test --fork-url $MAINNET_RPC_URL --fork-block-number $MAINNET_FORK_BLOCK",
     "test:hardhat": "npx hardhat test",
-    "coverage" : "npx hardhat coverage"
+    "coverage" : "npx hardhat coverage",
+    "clear" : "rm -rf contracts/* && rm -rf test/*"
   },
   "repository": {
     "type": "git",
