@@ -36,5 +36,5 @@ jobs:
           npm install
       - name: compile
         run: npm run compile:hardhat
-      - name: compile
+      - name: test
         run: npm run test:hardhat
