@@ -1,6 +1,10 @@
-# Prerequisite
+# Foundry template
 
-## Foundry Installation
+foundry template to work with hardhat
+
+## Prerequisite
+
+### Foundry Installation
 
 ```shell
 curl -L https://foundry.paradigm.xyz | bash
@@ -8,7 +12,7 @@ source ~/.zshrc
 foundryup
 ```
 
-## Node Installation
+### Node Installation
 
 ```shell
 brew install nvm # follow https://formulae.brew.sh/formula/nvm
@@ -19,7 +23,7 @@ nvm install 14
 nvm use 14
 ```
 
-# Setting up Repository
+## Setting up Repository
 
 install node modules
 
@@ -32,31 +36,31 @@ install foundry libraries
 forge install
 ```
 
-# instructions
+## instructions
 
-## using foundry
+### using foundry
 
-### running compile
+#### running compile
 
 ```shell
 npm run compile
 ```
 
-### running test
+#### running test
 
 ```shell
 npm run test
 ```
 
-## using hardhat
+### using hardhat
 
-### running compile
+#### running compile
 
 ```shell
 npm run compile:hardhat
 ```
 
-### running test
+#### running test
 
 ```shell
 npm run test:hardhat
