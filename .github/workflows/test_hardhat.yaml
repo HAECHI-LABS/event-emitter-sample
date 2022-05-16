@@ -1,4 +1,4 @@
-name: CI with npm
+name: Hardhat Test
 
 on:
   push:
@@ -12,7 +12,7 @@ on:
 
 jobs:
   test:
-    name: Github Action Test
+    name: Hardhat test
     runs-on: ubuntu-latest
     strategy:
       matrix:

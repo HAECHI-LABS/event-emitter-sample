@@ -1,4 +1,4 @@
-name: CI with npm
+name: Foundry Test
 
 on:
   push:
