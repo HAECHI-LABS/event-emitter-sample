@@ -6,7 +6,7 @@ This will contain sets of testing materials to use for fork-testing with foundry
 
 ## Working features
 
-- [] ERC20 Token Faucet
-  - [] DAI
-  - [] USDC
-  - [] USDT
+- [ ] ERC20 Token Faucet
+  - [ ] DAI
+  - [ ] USDC
+  - [ ] USDT
