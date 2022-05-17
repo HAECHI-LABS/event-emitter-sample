@@ -1,3 +1,10 @@
+---
+layout: default
+title: Instructions
+nav_order: 2
+parent: Start Here
+---
+
 # instructions
 
 ## clear contract and test files
