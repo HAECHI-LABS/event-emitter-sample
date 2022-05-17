@@ -5,7 +5,7 @@ nav_order: 2
 parent: Start Here
 ---
 
-# instructions
+# Instructions
 
 ## clear contract and test files
 
