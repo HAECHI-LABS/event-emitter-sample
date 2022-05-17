@@ -16,9 +16,6 @@ foundryup
 
 ```shell
 brew install nvm # follow https://formulae.brew.sh/formula/nvm
-```
-
-```shell
 nvm install 14
 nvm use 14
 ```
