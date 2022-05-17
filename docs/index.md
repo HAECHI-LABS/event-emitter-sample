@@ -1,3 +1,9 @@
+---
+layout: default
+title: Mudslide
+nav_order: 1
+---
+
 # Mudslide
 
 Repository template to use both hardhat and foundry in same repository maintained by HAECHI AUDIT
