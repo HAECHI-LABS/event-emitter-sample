@@ -1,6 +1,6 @@
 pragma solidity ^0.8.11;
 
-import {ERC20} from  "@rari-capital/solmate/src/tokens/ERC20.sol";
+import { ERC20 } from  "@rari-capital/solmate/src/tokens/ERC20.sol";
 
 contract SampleERC20 is ERC20 {
 
