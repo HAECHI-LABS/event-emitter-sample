@@ -49,3 +49,6 @@ npx hardhat emit-refunded --network localhost --id <pid>
 npx hardhat emit-settled --network localhost --id <pid>
 npx hardhat emit-claimed --network localhost --id <pid>
 ```
+
+
+[동영상예저](./event-emitter-1080p.mov)
