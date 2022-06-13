@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "smart contract development framework",
   "scripts": {
-    "node": "anvil --fork-url $MAINNET_RPC_URL --fork-block-number $MAINNET_FORK_BLOCK",
+    "node": "anvil",
     "build": "forge build",
     "compile": "forge build",
     "compile:hardhat": "npx hardhat compile",
-    "test": "forge test --fork-url $MAINNET_RPC_URL --fork-block-number $MAINNET_FORK_BLOCK",
+    "test": "forge test",
     "test:hardhat": "npx hardhat test",
     "coverage": "npx hardhat coverage",
     "clear": "rm -rf contracts/* && rm -rf test/*"
@@ -20,10 +20,12 @@
   "dependencies": {
     "@rari-capital/solmate": "^6.4.0",
     "bignumber.js": "9.0.2",
-    "hardhat": "^2.9.3"
+    "hardhat": "^2.9.3",
+    "hardhat-deploy": "^0.11.10",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13"
   },
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
     "@nomiclabs/hardhat-web3": "^2.0.0",
     "@openzeppelin/contracts": "^4.6.0",
