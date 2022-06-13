@@ -51,4 +51,4 @@ npx hardhat emit-claimed --network localhost --id <pid>
 ```
 
 
-[동영상예저](./event-emitter-1080p.mov)
+[동영상예제](./event-emitter-1080p.mov)
